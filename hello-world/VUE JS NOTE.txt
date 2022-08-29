@@ -1,8 +1,0 @@
-1. vue create <file-name>
-2.yarn serve
-3.package.json->dependency
-4.Babel->Babel is a JavaScript transpiler, meaning it converts a newer version of ECMAScript, 
-	such as ES9, to a standard version (ES5)
-5.node_modules folder-> a folder where all dependencies are installed
-6.public folder->contain static asset such as the only html file of view.
-7.When we run a vue file it serves the index.html file. In main.js it mount the App.vue with index.html
