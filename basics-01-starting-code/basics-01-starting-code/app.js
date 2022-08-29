@@ -4,15 +4,16 @@ const app=Vue.createApp({
         return{
             msg:'Hi this is Rokan',
             link:"https://github.com/NoorMohammadTalukder?tab=repositories",
-            favSportsA:"Cricket",
-            favSportsB:"Football"
+            favSportsA:'<h1>Cricket</h1>',
+            favSportsB:"Football",
+          
         };
     },
     methods:{
         favColours(){
             const num=Math.random();
             if(num<0.5){
-                return "RED";
+                return 'Red';
             }else{
                 return "BLUE"
             }

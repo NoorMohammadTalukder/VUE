@@ -17,13 +17,17 @@
       <h1>My portfolio</h1>
     </header>
     <section id="user-goal">
+     
       <h2>About Me</h2>
       <p>{{msg}}</p>
      
       <p>My gitHub Link <a v-bind:href="link">Click here</a> 
       </p>
-      <p>My current Favourite Colour: {{ favColours()}}</p>
-      <p>My current Favourite Sports: {{ favSports()}}</p>
+      <p>My current Favourite Colour: {{ favColours()}}</p> 
+      <p>My current Favourite Colour: {{ favSports()}}</p> 
+      
+      <!-- <p v-html>{{favColours()}}</p> -->
+      <p v-html="favSports()"></p>
     </section>
   </body>
 </html>
