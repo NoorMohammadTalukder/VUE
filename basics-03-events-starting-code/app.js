@@ -5,6 +5,17 @@ const app = Vue.createApp({
       
     };
   },
+  methods:{
+    add(){
+      this.counter+=1;
+    },
+    remove(){
+      if(this.counter>0){
+        this.counter-=1;
+      }
+      
+    }
+  }
 });
 
 app.mount('#events');
